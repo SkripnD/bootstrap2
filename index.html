@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bootstrap2 by rkit</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bootstrap2</h1>
+        <p>Bootstrap for Yii2</p>
+
+        <p class="view"><a href="https://github.com/rkit/bootstrap2">View the Project on GitHub <small>rkit/bootstrap2</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/rkit/bootstrap2/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rkit/bootstrap2/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rkit/bootstrap2">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="bootstrap2" class="anchor" href="#bootstrap2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap2</h1>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<ul>
+<li>Run <code>composer create-project --prefer-dist --stability=dev rkit/bootstrap2</code>
+</li>
+<li>Create a configuration file — <a href="https://gist.github.com/rkit/8fa95259aace1bf4120b">config/local/config.php</a>
+</li>
+<li>Run <code>npm install</code>
+</li>
+<li>Run <code>gulp</code>
+</li>
+<li>Run <code>php yii migrate --migrationPath=@yii/log/migrations/</code>
+</li>
+<li>Run <code>php yii migrate --migrationPath=@yii/rbac/migrations/</code>
+</li>
+<li>Run <code>php yii migrate/up</code>
+</li>
+<li>Run <code>php yii rbac/init</code>
+</li>
+</ul>
+
+<h2>
+<a id="debug-mode" class="anchor" href="#debug-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debug Mode</h2>
+
+<pre><code>SetEnv APPLICATION_ENV "development"
+</code></pre>
+
+<pre><code>gulp --debug
+</code></pre>
+
+<h2>
+<a id="browsersync" class="anchor" href="#browsersync" aria-hidden="true"><span class="octicon octicon-link"></span></a>BrowserSync</h2>
+
+<pre><code>gulp --sync
+</code></pre>
+
+<h2>
+<a id="standards" class="anchor" href="#standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Standards</h2>
+
+<h3>
+<a id="php-coding-style-psr-2" class="anchor" href="#php-coding-style-psr-2" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://www.php-fig.org/psr/psr-2">PHP Coding Style: PSR-2</a>
+</h3>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/rkit">rkit</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
