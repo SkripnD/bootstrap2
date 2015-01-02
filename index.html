@@ -29,29 +29,39 @@
       </header>
       <section>
         <h1>
-<a id="bootstrap2" class="anchor" href="#bootstrap2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap2</h1>
+<a id="bootstrap-for-yii2" class="anchor" href="#bootstrap-for-yii2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap for Yii2</h1>
+
+<h4>
+<a id="the-template-contains-the-basic-features-including-users-roles-and-more" class="anchor" href="#the-template-contains-the-basic-features-including-users-roles-and-more" aria-hidden="true"><span class="octicon octicon-link"></span></a>The template contains the basic features including users, roles and more</h4>
+
+<ul>
+<li>Users (roles, registration, basic and social authorization)</li>
+<li>Files (upload, crop, gallery)</li>
+<li>Geo (countries, regions, cities)</li>
+<li>Tags</li>
+<li>Settings</li>
+</ul>
+
+<p><img src="https://cloud.githubusercontent.com/assets/4242765/5595177/090519a6-9296-11e4-9412-9821a98612e8.png" alt="Screenshot"></p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
-<ul>
+<ol>
 <li>Run <code>composer create-project --prefer-dist --stability=dev rkit/bootstrap2</code>
 </li>
 <li>Create a configuration file — <a href="https://gist.github.com/rkit/8fa95259aace1bf4120b">config/local/config.php</a>
 </li>
-<li>Run <code>npm install</code>
-</li>
-<li>Run <code>gulp</code>
-</li>
-<li>Run <code>php yii migrate --migrationPath=@yii/log/migrations/</code>
-</li>
-<li>Run <code>php yii migrate --migrationPath=@yii/rbac/migrations/</code>
-</li>
-<li>Run <code>php yii migrate/up</code>
-</li>
-<li>Run <code>php yii rbac/init</code>
-</li>
-</ul>
+<li>Run:</li>
+</ol>
+
+<pre><code>npm install
+gulp
+php yii migrate --migrationPath=@yii/log/migrations/
+php yii migrate --migrationPath=@yii/rbac/migrations/
+php yii migrate/up
+php yii rbac/init
+</code></pre>
 
 <h2>
 <a id="debug-mode" class="anchor" href="#debug-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debug Mode</h2>
