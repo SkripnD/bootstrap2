@@ -50,21 +50,25 @@
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <ol>
-<li>Run <code>composer create-project --prefer-dist --stability=dev rkit/bootstrap2</code>
-</li>
-<li>Create a new database and configuration file in <a href="https://gist.github.com/rkit/8fa95259aace1bf4120b">config/local/config.php</a>
-</li>
-<li><p>Run:</p></li>
-</ol>
+<li>
+<p>Create project </p>
 
-<ul>
-<li><code>npm install</code></li>
-<li><code>gulp</code></li>
-<li><code>php yii migrate --migrationPath=@yii/log/migrations/</code></li>
-<li><code>php yii migrate --migrationPath=@yii/rbac/migrations/</code></li>
-<li><code>php yii migrate/up</code></li>
-<li><code>php yii rbac/init</code></li>
-</ul>
+<pre><code>composer create-project --prefer-dist --stability=dev rkit/bootstrap2
+</code></pre>
+</li>
+<li><p>Create a new database and configuration file in <a href="https://gist.github.com/rkit/8fa95259aace1bf4120b">config/local/config.php</a></p></li>
+<li>
+<p>Run</p>
+
+<pre><code>npm install
+gulp
+php yii migrate --migrationPath=@yii/log/migrations/
+php yii migrate --migrationPath=@yii/rbac/migrations/
+php yii migrate/up
+php yii rbac/init
+</code></pre>
+</li>
+</ol>
 
 <h2>
 <a id="debug-mode" class="anchor" href="#debug-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Debug Mode</h2>
@@ -82,11 +86,12 @@
 </code></pre>
 
 <h2>
-<a id="standards" class="anchor" href="#standards" aria-hidden="true"><span class="octicon octicon-link"></span></a>Standards</h2>
+<a id="tests" class="anchor" href="#tests" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/rkit/bootstrap2/tree/master/tests">Tests</a>
+</h2>
 
-<h3>
-<a id="php-coding-style-psr-2" class="anchor" href="#php-coding-style-psr-2" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://www.php-fig.org/psr/psr-2">PHP Coding Style: PSR-2</a>
-</h3>
+<h2>
+<a id="coding-style-guide-psr-2" class="anchor" href="#coding-style-guide-psr-2" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://www.php-fig.org/psr/psr-2">Coding Style Guide (PSR-2)</a>
+</h2>
         </section>
 
         <aside id="sidebar">
